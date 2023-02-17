@@ -9,3 +9,15 @@ Install or use correct [node](https://github.com/nodejs/node) version with [nvm]
 `yarn build` Builds the app for production.
 
 `yarn start` Runs the built app in production mode.
+
+# Pages
+
+We need five pages or a path for our blog website. The path is straightforward for a simple blog.
+
+## Paths List
+
+- `pages/index.js` Home Page
+- `pages/blog/[slug].js` Reading Page
+- `pages/category/[slug].js` Category Page
+- `pages/tag/[slug].js` Tag Page
+- `pages/search.jsSearch` Page
